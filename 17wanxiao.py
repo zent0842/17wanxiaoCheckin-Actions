@@ -400,7 +400,7 @@ def get_ap():
     获取当前时间，用于校内打卡
     :return: 返回布尔列表：[am, pm, ev]
     """
-    now_time = datetime.datetime.now() + datetime.timedelta(hours=8)
+    now_time = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
     am = 0 <= now_time.hour < 12
     pm = 12 <= now_time.hour < 17
     ev = 17 <= now_time.hour <= 23
@@ -409,8 +409,7 @@ def get_ap():
 
 def run():
     initLogging()
-    now_time = datetime.datetime.now()
-    bj_time = now_time + datetime.timedelta(hours=8)
+    bj_time = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
     log_info = [f"""
 ------
 #### 现在时间：
