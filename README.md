@@ -10,7 +10,7 @@
 
 **⚡2020.11.16：本项目已更新，使用本项目，你不需要抓包就可以使用（理论上大概......）**
 
-                   
+
 
 [中南林业科技大学](https://www.csuft.edu.cn/) 测试可用，欢迎大家 fork 测试使用，如果可用的话，可以开 [issue](https://github.com/ReaJason/17wanxiaoCheckin-Actions/issues) 让更多人知道
 
@@ -18,7 +18,7 @@
 
 之前的抓包部署教程请前往：[完美校园抓包打卡](https://github.com/ReaJason/17wanxiaoCheckin-Actions/blob/master/README_LAST.md)
 
-       
+
 
 ## Q&A
 
