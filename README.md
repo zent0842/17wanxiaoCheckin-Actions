@@ -1,5 +1,9 @@
 # 🌈17wanxiaoCheckin-Actions
 
+**🎭2021.01.20：由于完美校园更新交换密钥接口，导致不可用，已修复（由 [@llkhs](https://github.com/llkhs) 提供方法）**
+
+**🎐2021.01.19：注释掉校内打卡相关代码，添加Server酱推送失败重试代码**
+
 **💦2021.01.16：由于GitHub Actions的服务器原因，添加腾讯云函数方案**
 
 **🚀2021.01.08：增加一些代码注释方便大家看懂代码，编写Wiki方便提供帮助**
@@ -34,9 +38,9 @@
    - `下午五点`：健康打卡，晚上校内打卡
 4. 微信推送打卡消息
 
-## 💢使用方法（已失效） —— 请使用 [腾讯云函数](https://github.com/ReaJason/17wanxiaoCheckin-Actions/blob/master/17wanxiaoCheckin-SCF.md)
+## 💢使用方法（已修复） —— 也可使用 [腾讯云函数](https://github.com/ReaJason/17wanxiaoCheckin-Actions/blob/master/17wanxiaoCheckin-SCF.md)
 
-1. 请先确保手机app或支付宝小程序进入健康打卡界面，信息能够正确的自动填写，并手动打一次卡（没有自动填写的项，可以自行修改代码）
+1. 请先确保在**完美校园 APP**中进入健康打卡界面，信息能够正确的自动填写，并手动打一次卡（只能是 app，小程序不行！）（没有自动填写的项，可以自行修改代码）
 
 2. 点击右上角的 `fork`，`fork` 本项目到自己仓库中
 
